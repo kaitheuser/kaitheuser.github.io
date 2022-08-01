@@ -1231,34 +1231,6 @@ section {
   transform: translateY(-10px);
 }
 
-.services .skill-title::after{
-  content: '';
-  position: absolute;
-  bottom: 0;
-  right: 50%;
-  width: 0;
-  height: 4px;
-  border-radius: 2px 0 0 2px;
-  background-color: #0563bb;
-  transition: .5s;
-}
-
-.services .skill-title::before{
-  content: '';
-  position: absolute;
-  bottom: 0;
-  left: 50%;
-  width: 0;
-  height: 4px;
-  border-radius: 0 2px 2px 0;
-  background-color: #0563bb;
-  transition: .5s;
-}
-
-.services .skills-container{
-  display: flex;
-  flex-direction: row;
-}
 
 .services .img{
   width: 200px;
