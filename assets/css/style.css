@@ -712,6 +712,10 @@ section {
   padding: 75px 0px;
 }
 
+.resume .content p{
+  text-align: justify;
+  word-wrap:inherit;
+}
 
 .resume .timeline ul li:nth-child(2)::before{
   background-image: url(../img/avl.png);
@@ -873,6 +877,10 @@ section {
     position: relative;
     width: 100%;
   }
+
+  .resume .timeline p{
+    text-align: left;
+  }
   
   .resume .timeline ul li{
     position: relative;
@@ -894,6 +902,7 @@ section {
     text-align: left;
     clear: both;
   }
+  
   .resume .timeline ul li:nth-child(even){
     float: right;
     text-align: left;
