@@ -1170,6 +1170,11 @@ section {
   background-color: #eee;
 }
 
+.services p{
+  color: #272829;
+  text-align: center;
+}
+
 .services .skills-item {
   margin-bottom: 30px;
 }
