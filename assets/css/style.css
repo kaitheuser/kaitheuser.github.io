@@ -607,7 +607,11 @@ section {
 
 .resume .timeline h6 {
   color: #0563bb;
-  margin-bottom: 10px;
+  margin-bottom: 6px;
+}
+
+.resume .timeline p {
+  margin-bottom: 5px;
 }
 
 .resume .timeline{
@@ -624,11 +628,11 @@ section {
 .resume .timeline::before{
   content: '';
   position: absolute;
-  height: 100%;
+  height: 85%;
   width: 6px;
   background-color: #0563bb;
   left: 50%;
-  top: 0.2%;
+  top: 8%;
 }
 
 .resume .timeline ul li:nth-child(odd){
@@ -642,25 +646,12 @@ section {
   clear: both;
 }
 
-.resume .timeline ul li:nth-child(1){
-  float: center;
-  text-align: center;
-  clear: both;
-}
-
 .resume .timeline ul li:nth-child(odd) .content{
   margin-right: 100px;
 }
 
 .resume .timeline ul li:nth-child(even) .content{
   margin-left: 100px;
-}
-
-.resume .timeline ul li:nth-child(1) .node{
-  margin-bottom: -2%;
-  margin-right: -95%;
-  z-index: 9999;
-  position: relative;
 }
 
 .resume .timeline ul::after{
@@ -695,19 +686,6 @@ section {
   border: 6px solid #0563bb;
 }
 
-.resume .timeline ul li:nth-child(1)::before{
-  content: '';
-  position: absolute;
-  height: 150px;
-  width: 150px;
-  background-color: #fff;
-  border-radius: 50%;
-  right: -62px;
-  top: 50%;
-  transform: translate(0%, -50%);
-  border: 6px solid #0563bb;
-}
-
 .resume .content{
   padding: 75px 0px;
 }
@@ -717,49 +695,49 @@ section {
   word-wrap:inherit;
 }
 
-.resume .timeline ul li:nth-child(2)::before{
+.resume .timeline ul li:nth-child(1)::before{
   background-image: url(../img/avl.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
 }
 
-.resume .timeline ul li:nth-child(3)::before{
+.resume .timeline ul li:nth-child(2)::before{
   background-image: url(../img/ucsd.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
 }
 
-.resume .timeline ul li:nth-child(4)::before{
+.resume .timeline ul li:nth-child(3)::before{
   background-image: url(../img/aonic.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
 }
 
-.resume .timeline ul li:nth-child(5)::before{
+.resume .timeline ul li:nth-child(4)::before{
   background-image: url(../img/mae.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
 }
 
-.resume .timeline ul li:nth-child(6)::before{
+.resume .timeline ul li:nth-child(5)::before{
   background-image: url(../img/eed.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
 }
 
-.resume .timeline ul li:nth-child(7)::before{
+.resume .timeline ul li:nth-child(6)::before{
   background-image: url(../img/cgn.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
 }
 
-.resume .timeline ul li:nth-child(8)::before{
+.resume .timeline ul li:nth-child(7)::before{
   background-image: url(../img/osu.png);
   background-repeat: no-repeat;
   background-size: cover;
@@ -782,11 +760,9 @@ section {
   .resume .timeline::before{
     content: '';
     position: absolute;
-    height: 100%;
     width: 6px;
     background-color: #0563bb;
     left: 115px;
-    top: 0.2%;
   }
 
   .resume .timeline ul li:nth-child(odd){
@@ -799,12 +775,7 @@ section {
     text-align: left;
     clear: both;
   }
-  
-  .resume .timeline ul li:nth-child(1){
-    float: right;
-    text-align: center;
-    clear: both;
-  }
+
   
   .resume .timeline ul li:nth-child(odd) .content{
     margin-right: 0px;
@@ -814,13 +785,7 @@ section {
   .resume .timeline ul li:nth-child(even) .content{
     margin-right: 0px;
   }
-  
-  .resume .timeline ul li:nth-child(1) .node{
-    margin-top: -23px;
-    margin-left: -60px;
-    z-index: 9999;
-    position: absolute;
-  }
+
   
   .resume .timeline ul::after{
     content: '';
@@ -852,20 +817,6 @@ section {
     top: 50%;
     transform: translate(0%, -50%);
     border: 6px solid #0563bb;
-  }
-
-  .resume .timeline ul li:nth-child(1)::before{
-    content: '';
-    position: absolute;
-    height: 150px;
-    width: 150px;
-    background-color: #fff;
-    border-radius: 50%;
-    left: -88px;
-    top: 10px;
-    transform: translate(0%, -50%);
-    border: 6px solid #0563bb;
-    
   }
   
 }
@@ -890,11 +841,9 @@ section {
   .resume .timeline::before{
     content: '';
     position: absolute;
-    height: 100%;
     width: 6px;
     background-color: #0563bb;
     left: 43px;
-    top: 0.2%;
   }
 
   .resume .timeline ul li:nth-child(odd){
@@ -909,12 +858,6 @@ section {
     clear: both;
   }
   
-  .resume .timeline ul li:nth-child(1){
-    float: right;
-    text-align: center;
-    clear: both;
-  }
-  
   .resume .timeline ul li:nth-child(odd) .content{
     margin-right: 0px;
     margin-left: 100px;
@@ -922,17 +865,6 @@ section {
   
   .resume .timeline ul li:nth-child(even) .content{
     margin-right: 0px;
-  }
-  
-  .resume .timeline ul li:nth-child(1) .node{
-    margin-top: -14px;
-    margin-left: -25px;
-    z-index: 9999;
-    position: absolute;
-  }
-
-  .resume .timeline ul li:nth-child(1) .node h5{
-    font-size: 14px;
   }
   
   .resume .timeline ul::after{
@@ -965,20 +897,6 @@ section {
     top: 50%;
     transform: translate(0%, -50%);
     border: 6px solid #0563bb;
-  }
-
-  .resume .timeline ul li:nth-child(1)::before{
-    content: '';
-    position: absolute;
-    height: 100px;
-    width: 100px;
-    background-color: #fff;
-    border-radius: 50%;
-    left: -40px;
-    top: 10px;
-    transform: translate(0%, -50%);
-    border: 6px solid #0563bb;
-    
   }
   
 }
@@ -1297,6 +1215,7 @@ section {
   display: flex;
   flex-direction: column;
   align-items: center;
+
 }
 
 .services .skills-item:hover > .skill-title::after, .services .skills-item:hover > .skill-title::before{
@@ -1329,6 +1248,11 @@ section {
   border-radius: 0 2px 2px 0;
   background-color: #0563bb;
   transition: .5s;
+}
+
+.services .skills-container{
+  display: flex;
+  flex-direction: row;
 }
 
 .services .img{
@@ -1397,7 +1321,7 @@ section {
   .services .skill-title h3{
     color: #272829;
     margin: 0.8rem;
-    font-size: 20px;
+    font-size: 15px;
     text-align: center;
   }
   
