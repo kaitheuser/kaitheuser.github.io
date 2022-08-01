@@ -628,11 +628,11 @@ section {
 .resume .timeline::before{
   content: '';
   position: absolute;
-  height: 85%;
+  height: 100%;
   width: 6px;
   background-color: #0563bb;
   left: 50%;
-  top: 7%;
+  top: 5%;
 }
 
 .resume .timeline ul li:nth-child(odd){
